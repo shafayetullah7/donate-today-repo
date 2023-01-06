@@ -137,19 +137,27 @@
 .motivation-1{
     display: flex;
     justify-content: space-between;
-    gap: 15px;
-    padding-right: 12rem;
+    align-items: center;
+    gap: 2rem;
+    padding-right: 10rem;
     padding-top: 12rem;
 }
-.motivation-1>div{
-    width: 45%;
+.motivation-title{
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
 }
-/* .motivation-img{
+/* .motivation-1>div{
     width: 45%;
-    border: 2px solid;
 } */
+.motivation-img{
+    width: 110%;
+    /* border: 2px solid; */
+}
 .motivation-img img{
     display: block;
     width: 100%;
     border-radius: 10px;
+}
+.motivation-btn{
+    margin-top: 3rem;
 }
