@@ -202,3 +202,18 @@ form input{
     display: inline-block;
     height: 100%;
 }
+footer{
+    padding: 5rem;
+    background-color: #222f3e;
+}
+.footer-title{
+    font-family: 'Dancing Script', cursive;
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+}
+.footer-text{
+    text-align: center;
+    color: white;
+    font-family: 'Dancing Script', cursive;
+}
