@@ -5,14 +5,25 @@
 .primary-color{
     color: #ee5253;
 }
-.primary-font{
+.primary-font-color{
     color: white;
 }
-.secondary-font{
+.secondary-font-color{
     color: black;
 }
-.gray-font{
+.gray-font-color{
     color: darkgray;
+}
+.title-primary{
+    font-size: 4.4rem;
+    color: black;
+}
+.text-primary{
+    color: #797979;
+    font-size: 1.7rem;
+}
+.center-text{
+    text-align: center;
 }
 .header{
     background-image: url('../images/donation13.jpg');
@@ -26,11 +37,14 @@
 .header-title{
     font-size: 6rem;
     text-align: center;
+    color: white;
 }
 .header-text{
     text-align: center;
-    padding: 1rem 10rem 2.5rem;
+    padding: 2rem 10rem 3rem;
     font-size: 1.5rem;
+    color: white;
+    font-weight: 500;
 }
 .primary-btn{
     color: white;
@@ -42,7 +56,100 @@
     border-radius: 7px;
     padding: 1rem 2rem;
 }
-.center-btn{
+#selected-btn{
+    background-color: #ffecec;
+    border: 3px solid #ee5253;
+    color: #ee5253;
+}
+.center{
     display: block;
+    width: fit-content;
     margin: 0 auto;
+}
+
+.main{
+    margin: 0 10%;
+    /* border: 1px solid; */
+}
+.section-primary{
+    padding-top: 10rem;
+}
+.inner-section{
+    margin: 0 10%;
+}
+.donate-today-text{
+    padding: 2rem 10% 4rem;
+}
+.amounts{
+    display: flex;
+    justify-content: space-around;
+}
+.amounts button{
+    padding: 4rem 0;
+    width: 13rem;
+    background-color: #f9f9f9;
+    color: gray;
+    font-size: 3rem;
+    font-weight: 700;
+    border: none;
+    border-radius: 8px;
+}
+.other-amount{
+    color: #797979;
+    font-size: 1.7rem;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid lightgray;
+    padding: 4rem 0 1rem;
+    margin-bottom: 2.5rem;
+}
+.donate-plan-text{
+    padding: 1.7rem 20% 3rem;
+}
+.plans{
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+.plan{
+    padding: 5rem 2rem;
+    border: none;
+    border-radius: 7px;
+}
+.plan-title{
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 2.5rem 0 1.5rem;
+}
+.plan-text{
+    color: #797979;
+    font-size: 1.5rem;
+}
+.plan:nth-child(1){
+    background-color: #ffecec;
+}
+.plan:nth-child(2){
+    background-color: #dbfef8;
+}
+.plan:nth-child(3){
+    background-color: #ffe2e2;
+}
+.motivation-1{
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    padding-right: 12rem;
+    padding-top: 12rem;
+}
+.motivation-1>div{
+    width: 45%;
+}
+/* .motivation-img{
+    width: 45%;
+    border: 2px solid;
+} */
+.motivation-img img{
+    display: block;
+    width: 100%;
+    border-radius: 10px;
 }
